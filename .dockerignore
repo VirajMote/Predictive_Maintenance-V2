@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Data — don't ship raw CSVs into production image
+data/
+
+# Logs and outputs
+logs/
+outputs/
+
+# Notebooks
+*.ipynb
+
+# Dev tooling
+.git/
+.gitignore
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
